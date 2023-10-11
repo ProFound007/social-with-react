@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import UsersProfileHeader from "./header"
 import UsersProfileInfo from "./info";
 import UsersProfileVideos from "./videos"
@@ -13,6 +13,7 @@ const UserProfile = () => {
             <div className="relative container mx-auto mt-4 
             lg:mb-4">
                 <Routes>
+                    <Route path="" element={<Navigate to="info" />}/>
                     <Route path="info/*" element={<UsersProfileInfo />}/>
                     <Route path="videos/*" element={<UsersProfileVideos />}/>
                     <Route path="musicals/*" element={<UsersProfileMusicals />}/>

@@ -18,7 +18,8 @@ const UsersProfileHeader = () => {
                                 md:flex">
                 
                 {/* Avatar's Image of Users Profile */}
-                <figure className="relative ">
+                <figure className="relative after:absolute after:h-1/2 after:w-full after:bottom-0 after:bg-gradient-to-t after:from-[rgba(36,36,36,0.5)] absolute:to-[rgba(36,36,36,0)]
+                md:after:w-0">
                     <UsersProfileHeaderAvatar />
                 </figure>
 

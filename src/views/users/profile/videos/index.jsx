@@ -14,7 +14,7 @@ const UsersProfileVideos = () => {
                 lg:col-span-3">
                     <Routes>
                         <Route path="" element={<Navigate to="saved_videos" />}/>
-                        <Route path="saved_videos" element={<p>Videos</p>}/>
+                        <Route path="saved_videos" element={<p>Saved Videos</p>}/>
                         <Route path="filims" element={<p>Films</p>}/>
                         <Route path="*" element={<p>Not Found Page 404</p>}/>
                     </Routes>
