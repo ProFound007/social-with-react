@@ -7,6 +7,6 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Demo view on Desktop - [Social profound](https://profound6243.github.io/social-with-react/)
-![Uploading image.png…]()
+Demo view - [Social profound](https://profound6243.github.io/social-with-react/)
+
 
