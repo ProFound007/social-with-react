@@ -10,6 +10,7 @@ const App = () => {
             <Route path="/users/profile/*" element={<UserProfile />}/>
             <Route path="/auth/*" element={<Auth />}/>
             <Route path="/users/settings" element={<UsersSettings />}/>
+            <Route path="/user/:name" element={<UsersSettings />}/>
             <Route path="*" element={<p>Not Found Page 404</p>}/>
         </Routes>
     )
